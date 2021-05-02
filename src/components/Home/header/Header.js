@@ -11,12 +11,10 @@ const Header = () => {
     return (
         <>
 
-
-        
-          <div className="header-container p-5">
+          <div className="header-container pt-5 pb-5">
          <div className="container">
-          <div class="row justify-content-center">
-          <div class="col-md-6 col-sm-12 p-5">
+          <div class="row">
+          <div class="col-md-6 col-sm-12 pt-1">
               <h1 className="head-text">I'm <span className="special-text">Emdadul</span> Hoque </h1>
               <h4 className="designation">Full-Stack Web Developer</h4>
               <div className="social-icons d-flex flex-row bd-highlight mb-3">
