@@ -1,0 +1,104 @@
+.about-container{
+    width: 100%;
+    
+    background-color: #070640;
+}
+.about-nav ul{
+    margin-left: 25%;
+    list-style: none;
+}
+
+.about-nav ul li{
+margin-left:60px;
+cursor: pointer;
+}
+.about-nav{
+    position: relative;
+}
+.about-nav::after{
+    content:"";
+    width:90%;
+    margin-left:5%;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+}
+
+.about-section ul li a{
+    font-weight:bold;
+    font-size:20px;
+    color:white!important;
+    text-transform:uppercase;
+    cursor: pointer;
+
+    }
+
+    
+
+    .about-section ul li button{
+        font-weight:bold;
+        font-size:20px;
+        background: none;
+        color:white!important;
+        text-transform:uppercase;
+    
+    
+        }
+
+.about-nav a{
+    font-weight:bold;
+font-size:20px;
+color:white!important;
+text-transform:uppercase;
+
+}
+
+
+@media only screen and (min-width: 992px){
+    .test{
+        color:red;
+    }
+
+    
+.experience{
+    background-image: linear-gradient(to right, #d02b55 , #d08537);
+    width: 300px;
+    height: 300px;
+    opacity: 0.9;
+    z-index:100;
+    margin:auto;
+    position: relative;
+    top: -100px;
+    left: 350px;
+    display: block;
+
+    
+}
+
+.exp-2{
+    border: 1px dotted white;
+
+}
+
+    
+    }
+    
+    @media only screen and (min-width:768px) and (max-width:991px){
+    .test{
+        color:yellow;
+    }
+    
+    }
+    
+    @media only screen and (min-width:576px) and (max-width: 767px){
+    .test{
+        color:blue
+    }
+    
+    }
+    
+    @media only screen and (max-width:575px){
+    .test{
+         color:green;
+        }
+    }

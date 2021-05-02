@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+.bar{
+    display: block;
+    height: 4px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+}
+.skillcard-section h1{
+    margin-left: 20%;
+    margin-bottom: 50px;
+    margin-top:70px;
+    font-size: 50px;
+    font-weight:bold;
+}
+

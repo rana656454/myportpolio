@@ -1,0 +1,30 @@
+.contact-card{
+    border : 1px solid #ff8c2f;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 10px 30px ;
+}
+
+.contact-card h1{
+    color:white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact-card .contact-icon{
+    border: 1px solid #ff8c2f;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    font-size: 50px;
+    color: #ff8c2f;
+    background:white;
+}
+
+.contact-card .contact-ref{
+    color:white;
+    font-size:20px;
+    font-weight: bold;
+    padding-top: 25px;
+}

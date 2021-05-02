@@ -1,0 +1,19 @@
+.service-icon{
+    color: white;
+    font-size:100px;
+    margin-top:20px;
+    
+}
+
+.service-details{
+    margin-left:20px;
+    color: White;
+    margin-top:50px;
+}
+
+.service-details h2{
+    font-size:40px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}

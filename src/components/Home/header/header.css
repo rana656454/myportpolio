@@ -1,0 +1,96 @@
+.header-container{
+    height: 100vh;
+    background-color: #100f55;
+}
+
+.head-text{
+    padding-top: 60px;
+    font-size: 100px;
+    font-weight:bold;
+    color:white;
+}
+
+.special-text{
+    color:#fe3e57;
+    text-transform: uppercase;
+}
+
+.designation{
+    color:white;
+    font-size:35px;
+    font-weight: bold;
+    padding-top:40px;
+
+}
+
+.icon{
+    color:white;
+    font-size: 35px;
+    border: 1px solid #fe3e57;
+    height:70px;
+    width:70px;
+    margin-top:10px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+
+.btn-resume::before{
+    content:'';
+    position: absolute;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #fe3e57;
+    transition: transform 300ms ease-in-out;
+    transform:scaleX(0);
+    transform-origin:right;
+}
+
+
+.btn-resume:hover::before,
+.btn-resume:focus::before{
+    transform: scaleX(1);
+}
+.btn-resume{
+    height:70px;
+    width:250px;
+    border:none;
+    background-color:bisque;
+    font-size: 25px;
+    font-weight: bold;
+    color:blue;
+    z-index: 1;
+    position:relative
+}
+
+@media only screen and (min-width: 992px){
+.test{
+    color:red;
+}
+
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+.test{
+    color:yellow;
+}
+.header-container img{
+    display:visibility;
+}
+
+}
+
+@media only screen and (min-width:576px) and (max-width: 767px){
+.test{
+    color:blue
+}
+
+}
+
+@media only screen and (max-width:575px){
+.test{
+     color:green;
+    }
+}

@@ -1,0 +1,19 @@
+.news-card img{
+border-radius: 10px;
+height: 360px;
+object-fit: cover;
+}
+
+.news-card h4{
+    color:white;
+    font-weight: bold;
+}
+.news-card p {
+color:white;
+font-size: 17px;
+}
+.news-card a{
+    color: blue;
+    font-size: 20px;
+
+}
