@@ -1,5 +1,8 @@
+
 .navigation {
-    background:  #090726;
+    background: #ff8c2f;
+    position: sticky;
+    top:0;
 }
 .navigation a{
   color: white!important;

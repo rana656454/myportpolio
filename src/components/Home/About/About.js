@@ -45,7 +45,7 @@ const About = () => {
     return (
         <>
             <section className="about-container" id="about">
-               <div className="experience">
+            <div className="experience">
                   <div className="exp-2">
                   <h1>7</h1>
                    <h4>Years Experience</h4>

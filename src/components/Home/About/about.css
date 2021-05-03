@@ -87,12 +87,30 @@ text-transform:uppercase;
     .test{
         color:yellow;
     }
+    .about-nav a{
+        font-weight:bold;
+    font-size:20px;
+    color:white!important;
+    text-transform:uppercase;
+    
+    }
+    
     
     }
     
     @media only screen and (min-width:576px) and (max-width: 767px){
     .test{
         color:blue
+    }
+    .about-nav{
+        width:90%;
+    }
+    .about-nav a{
+        font-weight:bold;
+    font-size:20px;
+    color:white!important;
+    text-transform:uppercase;
+    
     }
     
     }
@@ -101,4 +119,24 @@ text-transform:uppercase;
     .test{
          color:green;
         }
+        .about-nav{
+            width:90%;
+            position: relative;
+        }
+         
+        .about-nav a{
+            font-weight:bold;
+        font-size:10px;
+        color:white!important;
+        text-transform:uppercase;
+        
+        }
+        .about-nav ul li{
+            margin-left:10px;
+            cursor: pointer;
+            }
+            .about-nav ul{
+                margin-left: 3%;
+                list-style: none;
+            }
     }
